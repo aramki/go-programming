@@ -1,10 +1,11 @@
 package main
 
-import "fmt"
+import f "fmt"
 
-func main () {
-	fmt.Println("Inside Main")
+func main() {
+	var hello = "Hello World"
+	f.Println(hello)
 
-	fmt.Println("Printing Wishes")
+	f.Println("Printing Wishes")
 	wishes()
 }

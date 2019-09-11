@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+var wish = "Wishing a very good day"
+
 func wishes() {
-	fmt.Print("Wishing a very good day")
+
+	fmt.Print(wish)
 }
