@@ -1,6 +1,9 @@
 package main
 
-import f "fmt"
+import (
+	f "fmt"
+	"runtime"
+)
 
 func main() {
 	var hello = "Hello World"
@@ -8,4 +11,6 @@ func main() {
 
 	f.Println("Printing Wishes")
 	wishes()
+	f.Println("\n" + "The number of CPUs is ")
+	f.Println(runtime.NumCPU())
 }
